@@ -27,6 +27,7 @@ XboxController _Controller;
   @Override
   public void execute() {
     _Subsystem.setSpeed(_Controller.getLeftY());
+    _Subsystem.setSpeed(_Controller.getRightX());
   }
 
 
